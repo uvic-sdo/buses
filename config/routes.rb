@@ -1,4 +1,9 @@
 Buses::Application.routes.draw do |map|
+	resources :routes
+	resources :schedule_times
+	resources :stops
+	resources :trips
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
